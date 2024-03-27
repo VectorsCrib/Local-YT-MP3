@@ -1,7 +1,7 @@
 # Local-YT-MP3
 Need a yt video converted to mp3 or other? Locally do so with the tool contained in this repo.
 
-# When ```main.py``` is running paste
+# When ```main.py``` is running paste this into your terminal, but change ```https://www.youtube.com/watch?v=xxxxx``` with the url of your video...
 curl -X POST -F "url=https://www.youtube.com/watch?v=xxxxx" http://127.0.0.1:5000/download --output downloaded_video.mp3
 # If it is not running. It wont download the youtube video as an mp3.
 
